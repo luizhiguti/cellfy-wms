@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Cellfy WMS",
+    "slug": "cellfy-wms",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.luizhigutiorg.cellfywms"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.luizhigutiorg.cellfywms"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1612cf35-7ece-49a0-a8c3-73d7453882a1"
+      }
+    },
+    "owner": "luiz_higuti-org",
+    "updates": {
+      "url": "https://u.expo.dev/1612cf35-7ece-49a0-a8c3-73d7453882a1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
